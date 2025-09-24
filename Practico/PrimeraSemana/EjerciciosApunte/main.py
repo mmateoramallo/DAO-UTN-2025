@@ -1,4 +1,8 @@
-colores = {"V": 0, "R": 0, "N": 0}
-colores['V'] += 1
+dictionary = {
+    'Prueba1':'Valor1',
+    'Prueba2':'Valor2'
+}
 
-print(colores)
+
+for i in range(len(list(dictionary.keys()))):
+    print(list(dictionary.values())[i])
